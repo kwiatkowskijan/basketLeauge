@@ -1,0 +1,203 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-color: #fff;
+    height: 2000px;
+}
+
+
+/*#region: navbar*/
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    align-items: center;
+    padding: 5px 10%;
+    background: rgb(35, 74, 94);
+}
+
+.navbar img {
+    max-width: 100%;
+    height: auto;
+}
+
+.navItem a,
+.contactUs {
+    text-decoration: none;
+    padding: 0 15px;
+    font-weight: 600;
+    color: #fff;
+    transition: color 0.2s;
+}
+
+.navItem a:hover,
+.contactUs:hover {
+    color: crimson;
+}
+
+.toggler {
+    display: none;
+}
+
+.fas {
+    color: #fff;
+}
+
+#toggle {
+    display: none;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+    align-content: center;
+    background: rgb(35, 74, 94);
+}
+
+#toggle a {
+    text-decoration: none;
+    padding: 15px 1rem;
+    font-weight: 600;
+    color: #fff;
+    transition: margin-right 0.2s;
+}
+
+#toggle a:hover {
+    margin-right: 2rem;
+}
+
+@media (max-width: 1100px) {
+    .navItem,
+    .contactUs {
+        display: none;
+    }
+    .toggler {
+        display: flex;
+        text-decoration: none;
+        color: #000;
+    }
+}
+
+
+/*#endregion*/
+
+
+/*#region: todays games*/
+
+.todaysGamesContainer {
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    box-shadow: 0px 2px 7px rgb(196, 196, 196);
+}
+
+.todaysGamesInfo {
+    padding: 1rem 5px;
+    margin: 2px 0;
+    text-align: center;
+    border-right: 1px solid rgb(196, 196, 196);
+    border-left: 1px solid rgb(196, 196, 196);
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.todaysGamesInfo h3 {
+    font-size: 1.2rem;
+}
+
+.todaysGames {
+    max-width: 70%;
+    white-space: nowrap;
+    overflow-x: scroll;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+    text-align: center;
+    border-right: 1px solid rgb(196, 196, 196);
+}
+
+.todaysGames::-webkit-scrollbar {
+    display: none;
+}
+
+.gameItem {
+    padding: 1rem 8px;
+    margin: 2px 0;
+    text-align: center;
+    border-right: 1px solid rgb(196, 196, 196);
+    background-color: #fff;
+    display: inline-block;
+}
+
+
+/*#endregion*/
+
+
+/*#region: firstpage*/
+
+.firstPage {
+    max-width: 100%;
+    max-height: 80%;
+    margin-top: 5rem;
+    background: rgb(141, 132, 132);
+}
+
+.slideshow-container {
+    max-width: 70%;
+    max-height: 100%;
+    position: relative;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.mySlides {
+    display: none;
+}
+
+.fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+    from {
+        opacity: .4
+    }
+    to {
+        opacity: 1
+    }
+}
+
+@keyframes fade {
+    from {
+        opacity: .4
+    }
+    to {
+        opacity: 1
+    }
+}
+
+@media (max-width: 700px) {
+    .firstPage {
+        height: 400px;
+    }
+    .slideshow-container {
+        height: 100%;
+    }
+}
+
+
+/*#endregion*/

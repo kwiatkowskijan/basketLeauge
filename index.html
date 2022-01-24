@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basket leauge</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="img\favicon.svg">
+    <script src="https://kit.fontawesome.com/fe525bff25.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="navbar">
+        <img src="img\logo.svg" alt="logo" class="logo">
+        <nav class="navItem">
+            <a href="">Strona główna</a>
+            <a href="">O lidze</a>
+            <a href="">Terminarz</a>
+            <a href="">Wyniki</a>
+            <a href="">Zawodnicy</a>
+            <a href="">Drużyny</a>
+        </nav>
+        <a href="#" class="contactUs">Napisz do nas</a>
+        <a class="toggler" id="toggler" onclick="toggle()"><i class="fas fa-bars fa-2x"></i></a>
+    </div>
+    <div id="toggle">
+        <a href="">Strona główna</a>
+        <a href="">O lidze</a>
+        <a href="">Terminarz</a>
+        <a href="">Wyniki</a>
+        <a href="">Zawodnicy</a>
+        <a href="">Drużyny</a>
+        <a href="">Napisz do nas</a>
+        <script src="navToggler.js"></script>
+    </div>
+    <div class="todaysGamesContainer">
+        <div class="todaysGamesInfo">
+            <h3>Nadchodzące</h3>
+            <h3>mecze</h3>
+            <p id="date"></p>
+            <script>
+                var result = document.getElementById("date");
+                var today = new Date();
+                var date = today.getFullYear() + '-' + (today.getMonth() + 1) + '-' + today.getDate();
+                result.innerHTML = "(" + date + ")";
+            </script>
+        </div>
+        <div class="todaysGames">
+            <div class="gameItem">
+                <h3>MEM vs GSW</h3>
+                <p>Memphis</p>
+                <p>18:00</p>
+            </div>
+            <div class="gameItem">
+                <h3>MEM vs GSW</h3>
+                <p>Memphis</p>
+                <p>18:00</p>
+            </div>
+            <div class="gameItem">
+                <h3>MEM vs GSW</h3>
+                <p>Memphis</p>
+                <p>18:00</p>
+            </div>
+            <div class="gameItem">
+                <h3>MEM vs GSW</h3>
+                <p>Memphis</p>
+                <p>18:00</p>
+            </div>
+            <div class="gameItem">
+                <h3>MEM vs GSW</h3>
+                <p>Memphis</p>
+                <p>18:00</p>
+            </div>
+            <div class="gameItem">
+                <h3>MEM vs GSW</h3>
+                <p>Memphis</p>
+                <p>18:00</p>
+            </div>
+            <div class="gameItem">
+                <h3>MEM vs GSW</h3>
+                <p>Memphis</p>
+                <p>18:00</p>
+            </div>
+            <div class="gameItem">
+                <h3>MEM vs GSW</h3>
+                <p>Memphis</p>
+                <p>18:00</p>
+            </div>
+            <div class="gameItem">
+                <h3>MEM vs GSW</h3>
+                <p>Memphis</p>
+                <p>18:00</p>
+            </div>
+            <div class="gameItem">
+                <h3>MEM vs GSW</h3>
+                <p>Memphis</p>
+                <p>18:00</p>
+            </div>
+            <div class="gameItem">
+                <h3>MEM vs GSW</h3>
+                <p>Memphis</p>
+                <p>18:00</p>
+            </div>
+            <div class="gameItem">
+                <h3>MEM vs GSW</h3>
+                <p>Memphis</p>
+                <p>18:00</p>
+            </div>
+        </div>
+    </div>
+    <div class="firstPage">
+        <div class="slideshow-container">
+            <div class="mySlides fade">
+                <img src="img/example1.svg" style="width:100%">
+            </div>
+
+            <div class="mySlides fade">
+                <img src="img/example2.svg" style="width:100%">
+            </div>
+
+            <div class="mySlides fade">
+                <img src="img/example3.svg" style="width:100%">
+            </div>
+        </div>
+        <script src="slideshow.js"></script>
+    </div>
+
+
+</body>
+
+</html>
