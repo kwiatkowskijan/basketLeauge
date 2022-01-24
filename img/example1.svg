@@ -19,15 +19,15 @@
      bordercolor="#666666"
      borderopacity="1.0"
      inkscape:pageshadow="2"
-     inkscape:pageopacity="0.0"
+     inkscape:pageopacity="1"
      inkscape:pagecheckerboard="0"
      inkscape:document-units="mm"
      showgrid="false"
      units="px"
      width="1920px"
      inkscape:zoom="0.37059484"
-     inkscape:cx="930.9358"
-     inkscape:cy="732.606"
+     inkscape:cx="930.93579"
+     inkscape:cy="732.60599"
      inkscape:window-width="1920"
      inkscape:window-height="1017"
      inkscape:window-x="1912"
@@ -54,6 +54,6 @@
        style="font-style:normal;font-weight:normal;font-size:144px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect3356);fill:#000000;fill-opacity:1;stroke:none"><tspan
          x="94.443359"
          y="229.94336"
-         id="tspan9298">EXAMPLE 1</tspan></text>
+         id="tspan831">EXAMPLE 1</tspan></text>
   </g>
 </svg>
