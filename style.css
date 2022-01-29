@@ -8,7 +8,6 @@
 
 body {
     background-color: #fff;
-    height: 2000px;
 }
 
 
@@ -203,6 +202,34 @@ body {
         height: 100%;
         width: 100%;
     }
+}
+
+
+/*#endregion*/
+
+/*#region:players*/
+.playersTable {
+    margin-top: 3rem;
+    overflow-x: auto;
+}
+
+.playersTable table {
+    margin-top: 2rem;
+    border-collapse: collapse;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.playersTable th {
+    background: rgb(35, 74, 94);
+    color: #fff;
+    border: 1px solid #fff;
+    padding: 0.5rem 3rem;
+}
+
+.playersTable td {
+    padding: 0.5rem 3rem;
+    text-align: center;
 }
 
 

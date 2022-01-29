@@ -19,7 +19,7 @@
             <a href="">O lidze</a>
             <a href="">Terminarz</a>
             <a href="">Wyniki</a>
-            <a href="">Zawodnicy</a>
+            <a href="players.php" target="_blank">Zawodnicy</a>
             <a href="">Drużyny</a>
         </nav>
         <a href="#" class="contactUs">Napisz do nas</a>
@@ -40,12 +40,7 @@
             <h3>Nadchodzące</h3>
             <h3>mecze</h3>
             <p id="date"></p>
-            <script>
-                var result = document.getElementById("date");
-                var today = new Date();
-                var date = today.getFullYear() + '-' + (today.getMonth() + 1) + '-' + today.getDate();
-                result.innerHTML = "(" + date + ")";
-            </script>
+            <script src="scripts/currentDate.js"></script>
         </div>
         <div class="todaysGames">
             <div class="gameItem">
@@ -124,7 +119,7 @@
                 <img src="img/example3.svg">
             </div>
         </div>
-        <script src="slideshow.js"></script>
+        <script src="scripts/slideshow.js"></script>
     </div>
 
 
