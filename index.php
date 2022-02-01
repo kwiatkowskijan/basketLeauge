@@ -16,7 +16,7 @@
         <img src="img\logo.svg" alt="logo" class="logo">
         <nav class="navItem">
             <a href="index.php">Strona główna</a>
-            <a href="">O lidze</a>
+            <a href="aboutUs.html">O lidze</a>
             <a href="">Terminarz</a>
             <a href="">Wyniki</a>
             <a href="players.php" target="_blank">Zawodnicy</a>
@@ -27,7 +27,7 @@
     </div>
     <div id="toggle">
         <a href="index.php">Strona główna</a>
-        <a href="">O lidze</a>
+        <a href="aboutUs.html">O lidze</a>
         <a href="">Terminarz</a>
         <a href="">Wyniki</a>
         <a href="players.php">Zawodnicy</a>

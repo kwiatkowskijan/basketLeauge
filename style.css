@@ -211,6 +211,63 @@ body {
 /*#endregion*/
 
 
+/*#region: aboutUs*/
+
+.aboutUsTitle {
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    margin-top: 5rem;
+}
+
+.aboutUsDescription {
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    background: rgb(35, 74, 94);
+    color: #fff;
+    margin-top: 4rem;
+    padding: 5rem 20%;
+}
+
+.aboutUsItemsContainer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+    margin-top: 5rem;
+}
+
+.aboutUsItem {
+    width: 300px;
+    height: 320px;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-content: center;
+    align-items: center;
+}
+
+.aboutUsItem h3,
+p,
+.fas {
+    padding: 1rem;
+}
+
+.fas {
+    color: #000;
+    font-size: 5rem;
+}
+
+
+/*#endregion*/
+
+
 /*#region:players*/
 
 .playersTable {
@@ -251,14 +308,41 @@ body {
 }
 
 .teamInfo {
-    border: 1px solid black;
     width: 400px;
     height: 200px;
-    margin-bottom: 2rem;
+    margin-bottom: 2.5rem;
     display: flex;
     justify-content: center;
     align-items: center;
     align-content: center;
+    background-size: contain;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.teamInfo p {
+    -webkit-transform: rotate(-25deg);
+    -moz-transform: rotate(-25deg);
+    -o-transform: rotate(-25deg);
+    font-size: 2.3rem;
+    font-weight: 800;
+    color: #000;
+}
+
+.teamInfo:hover {
+    cursor: pointer;
+}
+
+@media (max-width: 402px) {
+    .teamInfo {
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+    .teamInfo p {
+        font-size: 1.7rem;
+    }
 }
 
 
